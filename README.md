@@ -91,16 +91,23 @@ if poco(text="输入手机号码").exists():
     break
 ```
 
+![ide03](./images/ide03.png)
+
+
 然后我们截个图留念
 
 ```
 snapshot()
 ```
 
-![ide03](./images/ide03.png)
+再运行一下，效果非常好
+
+![snapshot](./images/snapshot.png)
 
 
-再运行一下，效果非常好。点击工具栏的`log`按钮，你还能看到每步操作的报告。
+> tips: 点击IDE工具栏的`log`按钮，你还能看到每步操作的报告。
+
+
 
 ### 提交代码
 
