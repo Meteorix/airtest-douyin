@@ -2,6 +2,8 @@
 
 用[Airtest](https://github.com/AirtestProject/Airtest)做点有意思的事情，先来刷个抖音？
 
+![ide01](./images/ide01.png)
+
 ## Get Started
 
 ### 环境准备
@@ -12,7 +14,7 @@
 *   [AirtestIDE](http://airtest.netease.com/)
 
 
-夜神模拟器装上抖音，用起来跟手机上一样舒服。看了下模拟器占内存200m和CPU 12%左右，还不错。自带了一个多开器，后面再玩玩。
+夜神模拟器装上抖音，用起来跟手机上一样舒服。看了下模拟器占内存200m和CPU 12%左右，还不错。夜神自带了一个多开器，后面分布式刷抖音再玩玩
 
 ![nox](./images/nox.png)
 
@@ -21,11 +23,11 @@
 
 打开AirtestIDE，按照[文档](http://airtest.netease.com/docs/cn/2_device_connection/3_emulator_connection.html#id2)连接好模拟器
 
-![ide01](images/ide01.png)
+![ide01](./images/ide01.png)
 
 为了每次能用代码自动打开抖音，先用右上角的安卓助手查看一下抖音的package id
 
-![assistant](images/assistant.png)
+![assistant](./images/assistant.png)
 
 手动加上代码
 
@@ -38,7 +40,7 @@ start_app(APP)
 
 然后将AirtestIDE调到安卓App的录制模式，进行一些操作，对应的代码就录制下来了
 
-![ide02](images/ide02.png)
+![ide02](./images/ide02.png)
 
 
 ### 稍微调整代码
